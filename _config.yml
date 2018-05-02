@@ -3,10 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: げ
-subtitle: サブタイトル
-description:
-keywords:
+title: 一丁目の朝日
+subtitle: JavaScript, Node.js, クラウドなど
+description: JavaScriptの事とかをメモしていきたい
 author: gasegi
 language: ja
 timezone: Japan
@@ -29,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: entries/:year/:year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -79,3 +78,12 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
