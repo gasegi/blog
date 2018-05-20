@@ -1,7 +1,10 @@
 ---
 title: プロダクション環境で起きたエラーの収集とハンドリング
 date: 2018-05-21 00:17:53
-tags: node.js webpack VSCode
+tags:
+- node.js
+- webpack
+- VSCode
 ---
 
 ## webpack で処理した Node.js アプリケーションのエラーを取得する
