@@ -1,7 +1,9 @@
 ---
 title: 設計メモ
 date: 2018-06-03 01:02:37
-tags: design diary
+tags: 
+- design
+- diary
 ---
 
 思ったことをデータに残しておかないともったいないので、走り書きで残す  
