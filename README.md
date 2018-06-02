@@ -5,7 +5,7 @@
 ## Installation
 
 1. `hexo server`
-2. Open http://0.0.0.0:4000
+2. Open http://localhost:4000
 
 ## License
 
