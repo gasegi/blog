@@ -1,5 +1,5 @@
 ---
-title: design-memo
+title: 設計メモ
 date: 2018-06-03 01:02:37
 tags: design diary
 ---
