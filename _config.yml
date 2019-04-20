@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一丁目の朝日
-subtitle: JavaScript, Node.js, クラウドなど
-description: JavaScriptの事とかをメモしていきたい
+title: nerinu diary
+subtitle: ねりーぬ だいあり
+description: JavaScript, Node.js, クラウド、VRの事とかをメモしていきたい
 author: gasegi
 language: ja
 timezone: Japan
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://gasegi.github.io
+url: https://blog.nerinu.dev/
 root: /
 permalink: entries/:year-:month-:day/:title/
 permalink_defaults:
@@ -87,3 +87,12 @@ feed:
   content:
   content_limit: 140
   content_limit_delim: ' '
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor

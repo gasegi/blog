@@ -7,6 +7,18 @@
 1. `hexo server`
 2. Open http://localhost:4000
 
+## Commands
+
+Look at package.json
+
+```bash
+# start devserver
+npm start
+
+# new post
+npm run post:new -- blog-title
+```
+
 ## License
 
 ソースコード: MIT
