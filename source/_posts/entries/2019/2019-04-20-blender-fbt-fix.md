@@ -20,11 +20,11 @@ Cat Blender Tool: 0.12.2
 
 あらかじめ下の[Import Model]ボタンを押してインポートしています
 
-![blender0.png](./blender0.png)
+{% asset_img blender0.png blenderその0 %}
 
 以下の画像のように、すべてチェックを入れればとりあえず問題なく動作します
 
-![blender1.png](./blender1.png)
+{% asset_img blender1.png blenderその1 %}
 
 ## メッシュを分割する
 
@@ -35,7 +35,7 @@ Model Option の `Separate By [Material]` を使用する
 
 ## シェイプキーを Unity で扱う際に扱いやすい形に並び変える
 
-![blender2.png](./blender2.png)
+{% asset_img blender2.png blenderその2 %}
 
 この画面で右の▲▼ボタンで直します  
 下にA-Zなどで並び替える機能がありますが、表示上のみで記録されないので、手で直す必要があります
