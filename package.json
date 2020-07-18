@@ -23,6 +23,6 @@
     "hexo-toc": "^1.1.0"
   },
   "devDependencies": {
-    "lodash": ">=4.17.12"
+    "lodash": ">=4.17.19"
   }
 }
